@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body class="fondo_olvide">
+
+        
+    </div>
+     <center>
+    <div style="background-color: rgba(90, 0, 0, 0.5);width: 23%;height: 262px">
+ <form name="formulario" action="">
+
+      <div class="contenedor">
+
+      <h1>Ingrese a la plataforma</h1>
+
+     
+
+        <div class="input-group">
+            <input type="text" name="nombre" id="usuario" placeholder="Usuario">
+        </div>
+
+        <div class="input-group">
+            <input type="password" name="email" id="contraseña" placeholder="Contraseña">
+        </div>
+        
+        <a href="olvide.html"><button type="button">Olvide mi contraseña</button></a>
+        <button type="button" onclick="f1()">Ingresar</button>
+
+      </form>
+
+
+    </div>
+    </div>
+
+           
+        <script>
+         var usuario;
+         var contraseña;
+            
+            usuario=document.getElementById("usuario");
+            
+            contra=document.getElementById("contraseña");
+            
+         
+         function f1(){
+            if(usuario.value=="Santiago"){
+                alert('Usuario correcto');
+
+         
+
+                if(contra.value=="1031"){
+                    alert('Contraseña correcta');
+                    location.href="inicio.html";
+
+                }
+            }
+             else{
+            
+                alert("Usuario o contraseña incorrectos");
+            }
+         }
+            
+        
+
+            
+         
+    </script>
+    </center>
+    
+</body>
+</html>

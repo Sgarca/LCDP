@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fondo_inicio{background-image: url("../img/fondo_inicio.jpg"); background-size: 100%}
+.fondo_olvide{background-image: url("../img/fondo_inicio.jpg"); background-size: 100%}
+/*==================================
+=            Formulario            =
+==================================*/
+
+form{
+  padding: 11px;
+  border: 3px solid #000000;
+}
+
+.input-group{
+  margin: 10px 0;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+button{
+  width: 100%;
+  background: #000000;
+  padding: 10px;
+  border: 1px solid #000000;
+  cursor: pointer;
+  color: white;
+  margin-top: 10px;
+}
+
+.disabled{
+  color: #000000;
+  cursor: not-allowed;
+}
+
+.disabled button, .disabled label{
+  color: #000000;
+  cursor: not-allowed;
+}
+
+

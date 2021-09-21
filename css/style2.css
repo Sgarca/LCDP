@@ -1,0 +1,64 @@
+	@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0}
+
+body{background-color: black;width: 100%;background-positio}
+.container{width: 100%;height: 900px}
+nav{width: 100%;height: 118px; background-color: rgba(0,0,0,0.8);box-shadow: #000000 0px 10px 100px;position: fixed;z-index: 2}
+.logo{margin: 30px 25px 0px 25px; float: left}
+nav ul li{list-style: none;padding: 44px 80px;display: inline-block; margin: 0 0 0 100px}
+nav ul li:hover{transition: all .7s;border: solid #E60000 1px}
+li {margin: 24px 0}
+nav ul li a{color: white;text-decoration: none;font-size: 16pt;font-family: open sans}
+.netflix{margin: 10px 25px 0px 25px;float: right}
+
+section{width: 100%;height: 606px; background-color: }
+.imagen1{background-image: url("../img/tem_1.png");background-size: cover;background-position: top center;width: 730px;height: 362px;margin: 0 0 0 190px;float: left}
+.imagen2{background-image: url("../img/tem_2.png");background-size: cover;background-position: top center;width: 730px;height: 362px;margin: 0 190px 0 0;float: right}
+.imagen3{background-image: url("../img/tem_3.png");background-size: cover;background-position: top center;width: 730px;height: 362px;margin: 0 0 0 190px;float: left}
+.imagen4{background-image: url("../img/tem_4.png");background-size: cover;background-position: topcenter;width: 730px;height: 362px;margin: 0 190px 0 0;float: right;}
+
+#boton1{width: 690px;height: 67px;background-color: rgba(0,0,0,0.8);margin: 183px 0 0 14px;cursor: pointer;position: relative;border-radius: 2px;overflow: hidden}
+
+#boton1:before{content: "Temporada 1" ;position: absolute;top: 50%;left:50%;transform: translate(-50%, -50%);font-size: 20pt;font-family: antonio;color: white;text-transform: uppercase;letter-spacing: .3px;font-weight: 700;transition: .2s ease}
+
+#boton1:after{content: "Ir ahora";position: absolute;top: 50%;left:50%;transform: translate(-50%, -50%) scale(0);font-size: 18pt;font-family: antonio;color: white;text-transform: uppercase;letter-spacing: .3px;font-weight: 700;transition: .2s ease;opacity: 0;}
+
+#boton1:hover:before{transform: translate(-50%, -50%) scale(3);opacity: 0;}
+
+#boton1:hover:after{transform: translate(-50%, -50%) scale(1);opacity: 1;}
+
+#boton2{width: 690px;height: 67px;background-color: rgba(0,0,0,0.8);margin: 183px 0 0 14px;cursor: pointer;position: relative;border-radius: 2px;overflow: hidden}
+
+#boton2:before{content: "Temporada 2" ;position: absolute;top: 50%;left:50%;transform: translate(-50%, -50%);font-size: 20pt;font-family: antonio;color: white;text-transform: uppercase;letter-spacing: .3px;font-weight: 700;transition: .2s ease}
+
+#boton2:after{content: "Ir ahora";position: absolute;top: 50%;left:50%;transform: translate(-50%, -50%) scale(0);font-size: 18pt;font-family: antonio;color: white;text-transform: uppercase;letter-spacing: .3px;font-weight: 700;transition: .2s ease;opacity: 0;}
+
+#boton2:hover:before{transform: translate(-50%, -50%) scale(3);opacity: 0;}
+
+#boton2:hover:after{transform: translate(-50%, -50%) scale(1);opacity: 1;}
+
+#boton3{width: 690px;height: 67px;background-color: rgba(0,0,0,0.8);margin: 183px 0 0 14px;cursor: pointer;position: relative;border-radius: 2px;overflow: hidden}
+
+#boton3:before{content: "Temporada 3" ;position: absolute;top: 50%;left:50%;transform: translate(-50%, -50%);font-size: 20pt;font-family: antonio;color: white;text-transform: uppercase;letter-spacing: .3px;font-weight: 700;transition: .2s ease}
+
+#boton3:after{content: "Ir ahora";position: absolute;top: 50%;left:50%;transform: translate(-50%, -50%) scale(0);font-size: 18pt;font-family: antonio;color: white;text-transform: uppercase;letter-spacing: .3px;font-weight: 700;transition: .2s ease;opacity: 0;}
+
+#boton3:hover:before{transform: translate(-50%, -50%) scale(3);opacity: 0;}
+
+#boton3:hover:after{transform: translate(-50%, -50%) scale(1);opacity: 1;}
+
+#boton4{width: 690px;height: 67px;background-color: rgba(0,0,0,0.8);margin: 183px 0 0 14px;cursor: pointer;position: relative;border-radius: 2px;overflow: hidden}
+
+#boton4:before{content: "Temporada 4" ;position: absolute;top: 50%;left:50%;transform: translate(-50%, -50%);font-size: 20pt;font-family: antonio;color: white;text-transform: uppercase;letter-spacing: .3px;font-weight: 700;transition: .2s ease}
+
+#boton4:after{content: "Ir ahora";position: absolute;top: 50%;left:50%;transform: translate(-50%, -50%) scale(0);font-size: 18pt;font-family: antonio;color: white;text-transform: uppercase;letter-spacing: .3px;font-weight: 700;transition: .2s ease;opacity: 0;}
+
+#boton4:hover:before{transform: translate(-50%, -50%) scale(3);opacity: 0;}
+
+#boton4:hover:after{transform: translate(-50%, -50%) scale(1);opacity: 1;}
+
+
+footer{width: 100%;height: 60px;background-color: black}
+footer #redes{background-image: url("../img/redes_1366.png");height: 60px;justify-content: center}
+footer pre{font-family: open sans;font-size: 14pt;display: inline-block;color: white;padding: 23px 0px 0px 140px; margin: 0 100px 0 0px}

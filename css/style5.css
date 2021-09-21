@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0}
+
+.fondogaleria{background-image: url("../img/fondo_galeria.png");width:100%;background-position: top center;background-size: cover;}
+
+
+header{height:118px}
+header nav{height: 118px;background-color: rgba(0,0,0,0.8);width: 100%;position: fixed;z-index: 2}
+nav ul li{list-style: none;padding: 44px 80px ;display: inline-block;color: white; margin: 0 0 0 100px}
+nav ul li:hover{transition: all .7s;border: solid #E60000 1px}
+nav ul li a{color: white;text-decoration: none;font-size: 16pt;font-family: open sans}
+.netflix{margin: 10px 25px 0px 25px;float: right}
+.logo{margin: 30px 25px 0px 25px; float: left}
+.netflix{margin: 10px 25px 0px 25px;float: right}
+
+
+section{width: 1366px;height: 3000px}
+
+
+#contenedor1{width: 100%;display: flex;height: 90px;margin: 100px 0 0 60px}
+
+#contenedor1 figure{position: relative;height: 702px;width: 719px;overflow: hidden;border-radius: 6px;box-shadow: 0px 15px 25px black;cursor: pointer}
+
+#contenedor1 figure img{width: 100%;height: 100%;transition: all 500ms ease-out}
+
+#contenedor1 figure .capa{position: absolute;top:0;width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);transition: all 500ms ease-out;opacity: 0;visibility: hidden;text-align: center}
+
+#contenedor1 figure:hover > .capa{opacity: 1;visibility: visible}
+
+#contenedor1 figure:hover > .capa h3{margin-top: 290px;margin-bottom: 25px;}
+.contenedor figure:hover > img{transform:scale(1.4)}
+#contenedor1 figure .capa h3{color:white;font-family: antonio;font-weight: 400;font-size: 50pt;margin-bottom: 120px;transition: all 500ms ease-out;margin-top: 30px}
+
+#contenedor1 figure .capa p{color: white;font-size: 20pt;font-family: open sans;line-height: 1;width: 100%;max-width: 420px;margin: auto}
+
+#contenedor2{width: 100%;display: flex;margin: 700px 0 0 780px}
+
+#contenedor2 figure{position: relative;height: 504px;width: 504px;overflow: hidden;border-radius: 6px;box-shadow: 0px 15px 25px black;cursor: pointer}
+
+#contenedor2 figure img{width: 100%;height: 100%;transition: all 500ms ease-out}
+
+#contenedor2 figure .capa{position: absolute;top:0;width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);transition: all 500ms ease-out;opacity: 0;visibility: hidden;text-align: center}
+
+#contenedor2 figure:hover > .capa{opacity: 1;visibility: visible}
+
+#contenedor2 figure:hover > .capa h3{margin-top: 220px;margin-bottom: 15px;}
+.contenedor figure:hover > img{transform:scale(1.1)}
+#contenedor2 figure .capa h3{color:white;font-family: antonio;font-weight: 400;font-size: 40pt;margin-bottom: 120px;transition: all 500ms ease-out;margin-top: 30px}
+
+#contenedor2 figure .capa p{color: white;font-size: 18pt;font-family: open sans;line-height: 1;width: 100%;max-width: 220px;margin: auto}
+
+#contenedor3{width: 100%;display: flex;margin: -520px 0 0 100px}
+
+#contenedor3 figure{position: relative;height: 1001px;width: 564px;overflow: hidden;border-radius: 6px;box-shadow: 0px 15px 25px black;cursor: pointer}
+
+#contenedor3 figure img{width: 100%;height: 100%;transition: all 500ms ease-out}
+
+#contenedor3 figure .capa{position: absolute;top:0;width: 100%;height: 100%;background-color: rgba(0,0,0,0.6);transition: all 500ms ease-out;opacity: 0;visibility: hidden;text-align: center}
+
+#contenedor3 figure:hover > .capa{opacity: 1;visibility: visible}
+
+#contenedor3 figure:hover > .capa h3{margin-top: 160px;margin-bottom: 545px;}
+.contenedor figure:hover > img{transform:scale(1.1)}
+#contenedor3 figure .capa h3{color:white;font-family: antonio;font-weight: 400;font-size: 44pt;margin-bottom: 120px;transition: all 500ms ease-out;margin-top: 30px}
+
+#contenedor3 figure .capa p{color: white;font-size: 20pt;font-family: open sans;line-height: 1;width: 100%;max-width: 480px;margin: auto}
+
+#contenedor4{width: 100%;display: flex;margin: -400px 0 0 700px}
+
+#contenedor4 figure{position: relative;height: 856px;width: 620px;overflow: hidden;border-radius: 6px;box-shadow: 0px 15px 25px black;cursor: pointer}
+
+#contenedor4 figure img{width: 100%;height: 100%;transition: all 500ms ease-out}
+
+#contenedor4 figure .capa{position: absolute;top:0;width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);transition: all 500ms ease-out;opacity: 0;visibility: hidden;text-align: center}
+
+#contenedor4 figure:hover > .capa{opacity: 1;visibility: visible}
+
+#contenedor4 figure:hover > .capa h3{margin-top: 370px;margin-bottom: 25px;}
+.contenedor figure:hover > img{transform:scale(1.1)}
+#contenedor4 figure .capa h3{color:white;font-family: antonio;font-weight: 400;font-size: 40pt;margin-bottom: 120px;transition: all 500ms ease-out;margin-top: 30px}
+
+#contenedor4 figure .capa p{color: white;font-size: 20pt;font-family: open sans;line-height: 1;width: 100%;max-width: 220px;margin: auto}
+
+
+.imagen2{background-image: url("../img/img_g_grande.png");background-size: cover;background-position: top center;width:100%;height: 581px;}
+
+#rectangulo{background-color:rgba(0,0,0,0.8);width: 1366px;height: 30px;box-shadow: 0px 1px 25px black;}
+
+#boton2{width: 602px;height: 67px;background-color: rgba(0,0,0,0.8);cursor: pointer;position: relative;border-radius: 2px;overflow: hidden;margin:auto}
+
+#boton2:before{content: "Por artmaristorck" ;position: absolute;top: 50%;left:50%;transform: translate(-50%, -50%);font-size: 20pt;font-family: antonio;color: white;letter-spacing: .3px;font-weight: 500;transition: .2s ease}
+
+#boton2:after{content: "Fan art tokio";position: absolute;top: 50%;left:50%;transform: translate(-50%, -50%) scale(0);font-size: 20pt;font-family:open sans;color: white;letter-spacing: .3px;transition: .2s ease;opacity: 0;}
+
+#boton2:hover:before{transform: translate(-50%, -50%) scale(3);opacity: 0;}
+
+#boton2:hover:after{transform: translate(-50%, -50%) scale(1);opacity: 1;}
+
+
+footer{width: 100%;height: 60px;background-color: black}
+footer #redes{background-image: url("../img/redes_1366.png");height: 60px;justify-content: center}
+footer pre{font-family: open sans;font-size: 14pt;display: inline-block;color: white;padding: 23px 0px 0px 140px; margin: 0 100px 0 0px}
+
+
